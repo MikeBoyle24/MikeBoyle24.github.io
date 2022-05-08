@@ -21,7 +21,7 @@
 
 .accordion {
   max-width: 500px;
-  border: 1px solid #1c1c1c;
+  border: 1px solid 0000FF;
   border-bottom: none;
 }
 
