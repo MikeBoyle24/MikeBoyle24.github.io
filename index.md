@@ -1,4 +1,4 @@
-# Name
+# Michael Boyle
 # Headshot (Photo)
 # Job Title or Desired Title (Web and Mobile Applications Developer)
 # Contact Fields (Email, Phone, Social Media)
@@ -131,50 +131,3 @@ for (let i = 0; i < Headers.length; i++) {
 
 </script>
 
-
-
-
-
-
-
-<h2>About</h2>
-
-<script type="text/javascript">
-
-let pageView = 0;
-let siteTitle = "MikeyBoyle.com"
-let pageTitle = 'Learn About Me!';
-let pageAuthor = 'Mike BOyle';
-
-function pageTitles() {
-
-  document.write(pageTitle);
-}
-
-
-function pageAuthors() {
-  document.write(pageAuthor);
-}
-
-
-function pageViews() {
-  pageView++;
-  document.write(pageView);
-}
-
-
-pageTitles();
-pageAuthors();
-pageViews();
-
-
-
-</script>
-
-<h1 class="page-title"><script>pageTitles();</script></h1>
-<p>by: <script>pageAuthors();</script></p>
-<small><script>pageViews();</script></small>
-
-<h2>Portfolio</h2>
-
-<h2>Contact</h2>
