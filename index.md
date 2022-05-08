@@ -49,7 +49,7 @@
 
 <section id="Classes-I've-Taken">
 
-<h2>Technology Classes completed</h2>
+<h2>Technology Classes I've completed</h2>
 
 <div class="accordion">
     <div class="Header">
