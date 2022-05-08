@@ -1,26 +1,17 @@
 # Name
 # Headshot (Photo)
 # Job Title or Desired Title (Web and Mobile Applications Developer)
-# Job or Desired Job Summary
 # Contact Fields (Email, Phone, Social Media)
 
 # Education
 # Previous Job Experience
 # Skills
 
-# Featured Projects
-# Portfolio
-# Case Studies
-
-# Licenses and Certifications
 # Courses Taken
 # Internships
 # Volunteer Work
 
-# Publications and Patents
-# Honors and Awards
-# Test Scores
-# Languages
+# Honors and Award
 # Organizations, Clubs, Teams, Athletics, Causes, Charities
 
 
