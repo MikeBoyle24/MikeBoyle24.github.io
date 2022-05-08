@@ -11,7 +11,7 @@
 
 .accordion {
   max-width: 500px;
-  border: 1px solid 0000FF;
+  border: 1px solid #0000FF;
   border-bottom: none;
 }
 
@@ -23,7 +23,7 @@
   display: flex;
   padding: 16px;
   cursor: pointer;
-  background-color: 0000FF;
+  background-color: #0000FF;
 }
 
 .Title {
