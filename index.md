@@ -7,16 +7,6 @@
 # Previous Job Experience
 # Skills
 
-# Courses Taken
-# Internships
-# Volunteer Work
-
-# Honors and Award
-# Organizations, Clubs, Teams, Athletics, Causes, Charities
-
-
-
-
 <style>
 
 .accordion {
@@ -131,3 +121,9 @@ for (let i = 0; i < Headers.length; i++) {
 
 </script>
 
+
+# Internships
+# Volunteer Work
+
+# Honors and Award
+# Organizations, Clubs, Teams, Athletics, Causes, Charities
