@@ -33,7 +33,7 @@
   display: flex;
   padding: 16px;
   cursor: pointer;
-  background-color: #93bd20;
+  background-color: 0000FF;
 }
 
 .Title {
