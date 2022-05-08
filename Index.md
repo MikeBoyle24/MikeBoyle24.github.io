@@ -72,7 +72,7 @@
 
 <div class="accordion">
     <div class="Header">
-      <div class="Title">CLass #1 - <strong>Digital Forensics</strong></div>
+      <div class="Title">Class #1 - <strong>Digital Forensics</strong></div>
       <span class="Icon">+</span>
     </div>
     <div class="Content">
