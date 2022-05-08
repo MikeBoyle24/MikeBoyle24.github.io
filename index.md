@@ -29,26 +29,26 @@
   border-bottom: 1px solid #1c1c1c;
 }
 
-.accordion-header {
+.Header {
   display: flex;
   padding: 16px;
   cursor: pointer;
   background-color: #93bd20;
 }
 
-.accordion-title {
+.Title {
   flex: 1;
 }
 
-.accordion-icon: {
+.Icon: {
   width: 16px;
 }
 
-.accordion-content {
+.Content {
   padding: 16px;
 }
 
-.accordion-content {
+.Content {
   display: none;
 }
 
@@ -57,7 +57,7 @@
 
 
 
-<section id="Classes I've Taken">
+<section id="Classes-I've-Taken">
 
 <h2>Technology Classes completed</h2>
 
