@@ -118,9 +118,9 @@
 
 <script>
 
-const accordionHeaders = document.getElementsByClassName('Header');
-const accordionContents = document.getElementsByClassName('Content');
-const accordionIcons = document.getElementsByClassName('Icon');
+const Headers = document.getElementsByClassName('Header');
+const Contents = document.getElementsByClassName('Content');
+const Icons = document.getElementsByClassName('Icon');
 
 for (let i = 0; i < Headers.length; i++) {
   Headers[i].addEventListener('click', () => {
