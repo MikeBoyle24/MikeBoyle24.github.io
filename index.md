@@ -2,6 +2,25 @@
 # Headshot (Photo)
 # Job Title or Desired Title (Web and Mobile Applications Developer)
 # Contact Fields (Email, Phone, Social Media)
+<script type="text/javascript">
+
+    let ContactInfo = ['Phone Number- 856-535-1334','Email- Mike.a.boyle2424@gmail.com','Instagram- @mboyle_2424','Snapchat- mikey.boyle24']
+
+let numberOfContactInfo = 5;
+
+    document.write('<h1> Ways to contact me</h1>')
+    document.write('<ol>')
+    for (let alertLoopNumber = 0; alertLoopNumber; alertLoopNumber++) {
+      document.write('<ol>');
+      document.write(ContactInfo[alertLoopNumber]);
+      document.write('</ol>');
+    }
+      document.write('</ol>');
+
+</script>
+
+</body>
+</html>
 
 # Education
 # Previous Job Experience
