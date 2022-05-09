@@ -1,8 +1,7 @@
 # Michael Boyle
 # Headshot (Photo)
 # Job Title or Desired Title (Web and Mobile Applications Developer)
-//Contact Information
-<body>
+
 <script type="text/javascript">
 
     let ContactInfo = ['Phone Number- 856-535-1334','Email- Mike.a.boyle2424@gmail.com','Instagram- @mboyle_2424','Snapchat- mikey.boyle24']
