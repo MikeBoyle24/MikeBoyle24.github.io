@@ -6,9 +6,6 @@
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
 # Internships
-# Volunteer Work
-
-# Honors and Award
 # Organizations, Clubs, Teams, Athletics, Causes, Charities
 <body>
       Ways to Contact me:
