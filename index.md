@@ -1,5 +1,5 @@
 # Michael Boyle
-<p> Hi! My name is Michael Boyle and i am currently enrolled at Mount Aloysius College in Cresson, PA. I am and IT major witha focus in Cyber Security, on this website you can find out all sorts of things about me!</p>
+<p> Hi! My name is Michael Boyle and I am currently enrolled at Mount Aloysius College in Cresson, PA, I am originally from Swedesboro,NJ. I'm an IT major witha focus in Cyber Security, on this website you can find out all sorts of things about me!</p>
 # Headshot (Photo)
 <a href="images/IMG-0421.PNG" title="My headshot"> My headshot!</a>
 # Previous Job Experience
