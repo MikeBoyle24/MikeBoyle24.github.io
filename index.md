@@ -7,8 +7,9 @@
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
 # Organizations, Clubs, Teams, Athletics, Causes, Charities
-<div class="portfolio-card">
+
 <body>
+      <div class="portfolio-card">
       Ways to Contact me:
       
       <ul>
@@ -17,6 +18,5 @@
     <li>Instagram- @mboyle_2424</li>
     <li>Snapchat- mikey.boyle24</li>
     </ul>
-    
+    </div>
 </body>
-</div>
