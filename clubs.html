@@ -1,0 +1,107 @@
+<style>
+
+.accordion {
+  max-width: 500px;
+  border: 1px solid #0000FF;
+  border-bottom: none;
+}
+
+.accordion:last-child {
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.Header {
+  display: flex;
+  padding: 16px;
+  cursor: pointer;
+  background-color: #ADD8E6;
+}
+
+.Title {
+  flex: 1;
+}
+
+.Icon: {
+  width: 16px;
+}
+
+.Content {
+  padding: 16px;
+}
+
+.Content {
+  display: none;
+}
+
+
+</style>
+
+
+
+<section id="Clubs and Athletics">
+
+<h2>Clubs and Athletics!</h2>
+
+<div class="accordion">
+    <div class="Header">
+      <div class="Title">Mount Aloysius Mens Soccer Team - <strong>Right Wing and Right Wing Back</strong></div>
+      <span class="Icon">+</span>
+    </div>
+    <div class="Content">
+        <ul>
+          <h1>What it is like being on the Mens Soccer team</h1>
+
+          <li>The Mens soccer team here at the mount is like one big happy family, we all fight sometimes but we all have each others backs. We won the second ever mesn soccer conference championship in 2021 and are going for a third in 2022. I play a crucial role in the team as a player who is required to get up and down the pitch constantly to play attack and defense.</li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="Header">
+      <div class="Title">E-Sports Club - <strong>Valorant and Apex Legends</strong></div>
+      <span class="Icon">+</span>
+    </div>
+    <div class="Content">
+      <ul>
+        <h1>What its like to be part of this club</h1>
+
+        <li> In this club we are able to utilize the basement computer lab that is used for the E-Sports team to play games with friends. This especislly allow all the international kids on the soccer team who could not bring their consoles with them, to play games with the Americans who can bring their consoles with them. We play Valorant, Rocket League, and Apex.</li>
+
+      </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="Header">
+      <div class="Title">JMount Aloysius IT Department - <strong>Internship</strong></div>
+      <span class="Icon">+</span>
+    </div>
+    <div class="Content">
+      <ul>
+        <h1>What will this job entail</h1>
+
+        <li>The Fall of 2022 i will be taking on an intership with the Mount IT department, I am looking forward to delving in and learning more about my future in IT and learning from people on campus!</li>
+      
+      </ul>
+    </div>
+</div>
+
+
+</section>
+
+
+<script>
+
+const Headers = document.getElementsByClassName('Header');
+const Contents = document.getElementsByClassName('Content');
+const Icons = document.getElementsByClassName('Icon');
+
+for (let i = 0; i < Headers.length; i++) {
+  Headers[i].addEventListener('click', () => {
+    Contents[i].style.display = Contents[i].style.display == 'block' ? 'none' : 'block';
+    Icons[i].innerHTML = Contents[i].style.display == 'block' ? '-' : '+';
+  });
+}
+
+</script>
