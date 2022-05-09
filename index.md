@@ -127,7 +127,7 @@ for (let i = 0; i < Headers.length; i++) {
 # Honors and Award
 # Organizations, Clubs, Teams, Athletics, Causes, Charities
 #How to Contact me
-<body
+<body>
       Ways to Contact me:
       
       <ul>
