@@ -2,7 +2,7 @@
 # Headshot (Photo)
 <a href="images/IMG-0421.PNG" title="My headshot"> My headshot!</a>
 # Previous Job Experience
-<a href="Previous Job Experience.html" title="Previous Job Experience">My Job Experience</a>
+<a href="Previous Job experience.html" title="Previous Job Experience">My Job Experience</a>
 # Skills
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
