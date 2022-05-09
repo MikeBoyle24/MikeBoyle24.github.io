@@ -1,8 +1,6 @@
 # Michael Boyle
 # Headshot (Photo)
 # Job Title or Desired Title (Web and Mobile Applications Developer)
-
-# Education
 # Previous Job Experience
 # Skills
 # Education
