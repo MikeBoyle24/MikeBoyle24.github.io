@@ -1,58 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-  <style>
-  </style>
-  
-  
+<title>My Seasons Project</title>
+
+
+<style>
+
+body {
+  background-color: #ADD8E6;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  color: #000;
+}
+
+h1 {
+  font-size: 3.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p, form, input, select {
+  font-size: 1.25rem;
+}
+
+hr {
+  outline: none;
+  border: none;
+  height: 1px;
+  background-color: #FFF;
+  margin: 24px 0px;
+}
+
+figure {
+  margin: 24px 0px 48px;
+}
+
+img {
+  margin: 0px 0px 8px;
+  width: 100%;
+  max-width: 100%;
+}
+</style>
+
+
 </head>
 
 <body>
 
+<h1>Seasons</h1>
+
+<p>This is the Seasons project I was able to complete during the Semester. When you choose a season the color and picture will change!</p>
 
 <form>
 
-
-
 Select your favorite season to change the website theme:
 
-<select id="background" onchange="updateBackgroundColor">
-  <option value="#Spring">Spring</option>
-  <option value="#Summer">Summer</option>
-  <option value="#Fall">Fall</option>
-  <option value="#Winter">Winter</option>
+<select id="background" onchange="seasonSelector(this)">
+  <option value="spring">Spring</option>
+  <option value="summer">Summer</option>
+  <option value="fall">Fall</option>
+  <option value="winter">Winter</option>
 
 </select>
 
 </form>
 
-<h1>Spring</h1>
+<hr>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-umbrella" viewBox="0 0 16 16">
-  <path d="M8 0a.5.5 0 0 1 .5.5v.514C12.625 1.238 16 4.22 16 8c0 0 0 .5-.5.5-.149 0-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394A3.166 3.166 0 0 0 13 7.5c-.638 0-1.178.213-1.564.434a3.484 3.484 0 0 0-.555.394l-.025.023-.003.003s-.204.146-.353.146-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394 3.3 3.3 0 0 0-1.064-.39V13.5H8h.5v.039l-.005.083a2.958 2.958 0 0 1-.298 1.102 2.257 2.257 0 0 1-.763.88C7.06 15.851 6.587 16 6 16s-1.061-.148-1.434-.396a2.255 2.255 0 0 1-.763-.88 2.958 2.958 0 0 1-.302-1.185v-.025l-.001-.009v-.003s0-.002.5-.002h-.5V13a.5.5 0 0 1 1 0v.506l.003.044a1.958 1.958 0 0 0 .195.726c.095.191.23.367.423.495.19.127.466.229.879.229s.689-.102.879-.229c.193-.128.328-.304.424-.495a1.958 1.958 0 0 0 .197-.77V7.544a3.3 3.3 0 0 0-1.064.39 3.482 3.482 0 0 0-.58.417l-.004.004S5.65 8.5 5.5 8.5c-.149 0-.352-.145-.352-.145l-.004-.004a3.482 3.482 0 0 0-.58-.417A3.166 3.166 0 0 0 3 7.5c-.638 0-1.177.213-1.564.434a3.482 3.482 0 0 0-.58.417l-.004.004S.65 8.5.5 8.5C0 8.5 0 8 0 8c0-3.78 3.375-6.762 7.5-6.986V.5A.5.5 0 0 1 8 0zM6.577 2.123c-2.833.5-4.99 2.458-5.474 4.854A4.124 4.124 0 0 1 3 6.5c.806 0 1.48.25 1.962.511a9.706 9.706 0 0 1 .344-2.358c.242-.868.64-1.765 1.271-2.53zm-.615 4.93A4.16 4.16 0 0 1 8 6.5a4.16 4.16 0 0 1 2.038.553 8.688 8.688 0 0 0-.307-2.13C9.434 3.858 8.898 2.83 8 2.117c-.898.712-1.434 1.74-1.731 2.804a8.687 8.687 0 0 0-.307 2.131zm3.46-4.93c.631.765 1.03 1.662 1.272 2.53.233.833.328 1.66.344 2.358A4.14 4.14 0 0 1 13 6.5c.77 0 1.42.23 1.897.477-.484-2.396-2.641-4.355-5.474-4.854z"/>
-</svg>
+<h2 id="Title">Spring</h2>
 
-<h1>Summer</h1>
+<p id="Spring-explination">This is Spring! Usually starts to warm up and is assosiated with rain!</p>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-life-preserver" viewBox="0 0 16 16">
-  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm6.43-5.228a7.025 7.025 0 0 1-3.658 3.658l-1.115-2.788a4.015 4.015 0 0 0 1.985-1.985l2.788 1.115zM5.228 14.43a7.025 7.025 0 0 1-3.658-3.658l2.788-1.115a4.015 4.015 0 0 0 1.985 1.985L5.228 14.43zm9.202-9.202-2.788 1.115a4.015 4.015 0 0 0-1.985-1.985l1.115-2.788a7.025 7.025 0 0 1 3.658 3.658zm-8.087-.87a4.015 4.015 0 0 0-1.985 1.985L1.57 5.228A7.025 7.025 0 0 1 5.228 1.57l1.115 2.788zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-</svg>
+<figure>
+  <img width="500" id="season-image" alt="" src="images/spring-1373199.jpg" />
+</figure>
 
-<h1>Fall</h1>
-
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bug-fill" viewBox="0 0 16 16">
-  <path d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A4.985 4.985 0 0 0 3 6h10a4.985 4.985 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A4.978 4.978 0 0 0 8 1a4.979 4.979 0 0 0-2.731.811l-.29-.956z"/>
-  <path d="M13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5H13zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975z"/>
-</svg>
-
-<h1>Winter</h1>
-
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
-  <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
-</svg>
 
 <script>
+
+// Continue to improve the season selector that we create for assignment 8. Feel free to change the topic from seasons to an interest of yours are we are going to include this as part of your portfolio for the final project. I gave some examples in the video but you would update the dropdown selector to give more information. One example would be to change the page to be about your favorite sports teams instead of the seasons. The selector would have options like baseball, football, basketball, etc and when a selector is chosen information about your favorite team for that sport would display. Example: Football is chosen so it would display a heading that says Pittsburgh Steelers, an image of their logo, change the background color to one of their colors and then show a summary paragraph about why you like them. 
+
+// Your page should now include the following for each selection:
+
+// Background Color
+// Topic Title
+// Topic Summary
+// Photo
+
+// Make sure to add styles to the page to make the image and text display properly on the page. Design is up to you. Make it look nice and clean.
 
 
 function seasonSelector(selectElem) {
@@ -61,27 +100,35 @@ function seasonSelector(selectElem) {
     return;
   }
 
-var optionValue = selectElem.options[i].value;
+  var optionValue = selectElem.options[i].value;
 
-else if (optionValue === "Spring") {
-  document.body.style.backgroundColor = "#fefe33";
-//do something
-}
-else if (optionValue === "Summer") {
-  document.body.style.backgroundColor = "#ff4500";
-//do something
-}
-else if (optionValue === "Fall") {
-  document.body.style.backgroundColor = "#ffa500";
-//do something
-}
-else if (optionValue === "Winter") {
-  document.body.style.backgroundColor = "#e0ffff";
-//do something
-}
-else {
-  document.write("Oh no! I seemed to have malfuctioned, Please refresh the page.");
-}
+  if (optionValue === "spring") {
+    document.body.style.backgroundColor = "#ffb6c1";
+    document.getElementById("season-title").innerHTML = "Spring";
+    document.getElementById("season-description").innerHTML = "This is Spring! Usually starts to warm up and is assosiated with rain!";
+    document.getElementById("season-image").src="images/spring-1373199.jpg";
+  }
+  else if (optionValue === "summer") {
+    document.body.style.backgroundColor = "#FFFF00";
+    document.getElementById("season-title").innerHTML = "Summer";
+    document.getElementById("season-description").innerHTML = "This is Summer! This season is assosiated with hot days and the beach!";
+    document.getElementById("season-image").src="images/summer.jpg";
+  }
+  else if (optionValue === "fall") {
+    document.body.style.backgroundColor = "#FFA500";
+    document.getElementById("season-title").innerHTML = "Fall";
+    document.getElementById("season-description").innerHTML = "This is Fall! This season is assosiated with pumpkins and Halloween!";
+    document.getElementById("season-image").src="images/autumn-leaves_207019997.jpeg";
+  }
+  else if (optionValue === "winter") {
+    document.body.style.backgroundColor = "#d6ecef ";
+    document.getElementById("season-title").innerHTML = "Winter";
+    document.getElementById("season-description").innerHTML = "This is Winter! This season is associated with cold days and my favorite... Snowboarding!";
+    document.getElementById("season-image").src="images/winter.jpg";
+  }
+  else {
+    document.write("I have malfunctioned! Please refresh.");
+  }
 }
 
 
