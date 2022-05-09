@@ -7,6 +7,7 @@
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
 # Organizations, Clubs, Teams, Athletics, Causes, Charities
+<div class="portfolio-card">
 <body>
       Ways to Contact me:
       
@@ -18,3 +19,4 @@
     </ul>
     
 </body>
+</div>
