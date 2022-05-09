@@ -1,1 +1,107 @@
+<style>
 
+.accordion {
+  max-width: 500px;
+  border: 1px solid #0000FF;
+  border-bottom: none;
+}
+
+.accordion:last-child {
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.Header {
+  display: flex;
+  padding: 16px;
+  cursor: pointer;
+  background-color: #ADD8E6;
+}
+
+.Title {
+  flex: 1;
+}
+
+.Icon: {
+  width: 16px;
+}
+
+.Content {
+  padding: 16px;
+}
+
+.Content {
+  display: none;
+}
+
+
+</style>
+
+
+
+<section id="Previous-Job-Experience">
+
+<h2>Previous Job Experience</h2>
+
+<div class="accordion">
+    <div class="Header">
+      <div class="Title">Corporate Facility Services - <strong>Warehouse Labor and Forklift Operator</strong></div>
+      <span class="Icon">+</span>
+    </div>
+    <div class="Content">
+        <ul>
+          <h1>What did this job entail</h1>
+
+          <li>While working for Coporate Facility Services I was able to get good workplace experience as well as forklift certification while loading and unloading semitrucks of commerical furniture. I was also sent out on the road to do installations at commerical sites for companies such as Staples.</li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="Header">
+      <div class="Title">American Water - <strong>IT Technical Support Intern</strong></div>
+      <span class="Icon">+</span>
+    </div>
+    <div class="Content">
+      <ul>
+        <h1>What did this Job Entail</h1>
+
+        <li>I took an internship with American Water working with the IT department builing laptops to suit the workers needs out in the field.I lerned how to install chips in laptops and set them up for a commercial company employee to use.</li>
+
+      </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <div class="Header">
+      <div class="Title">Jack Frost Ski Resort - <strong>Lift Operator</strong></div>
+      <span class="Icon">+</span>
+    </div>
+    <div class="Content">
+      <ul>
+        <h1>What did this job entail</h1>
+
+        <li>This is a job I take in the winter as I am a huge snowboarder. I work the lifts stopping the chair for people to get on as well as watching people load with an emergency stop button.</li>
+      
+      </ul>
+    </div>
+</div>
+
+
+</section>
+
+
+<script>
+
+const Headers = document.getElementsByClassName('Header');
+const Contents = document.getElementsByClassName('Content');
+const Icons = document.getElementsByClassName('Icon');
+
+for (let i = 0; i < Headers.length; i++) {
+  Headers[i].addEventListener('click', () => {
+    Contents[i].style.display = Contents[i].style.display == 'block' ? 'none' : 'block';
+    Icons[i].innerHTML = Contents[i].style.display == 'block' ? '-' : '+';
+  });
+}
+
+</script>
