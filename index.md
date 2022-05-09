@@ -20,7 +20,6 @@ let numberOfContactInfo = 5;
 </script>
 
 </body>
-</html>
 
 # Education
 # Previous Job Experience
