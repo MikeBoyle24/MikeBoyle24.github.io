@@ -8,7 +8,7 @@
 <a href="skills.html" title="Seasons project I did this past semester!">Seasons project I did this past semester!</a>
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
-# Organizations, Clubs, Teams, and Athletics
+# Clubs and Athletics
 
 <div class="portfolio-card">
       Ways to Contact me:
