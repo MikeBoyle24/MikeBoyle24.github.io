@@ -15,10 +15,9 @@
 <a href="About.html" title="About Me Page">Click here to get to my About Me page!</a>
      
       
-      
      
       
-      Ways to Contact me:
+      <p> Ways to Contact me:</p>
       
       <ul>
     <li>Phone Number- 856-535-1334</li>
