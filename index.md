@@ -9,7 +9,7 @@
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
 # Clubs and Athletics
-
+<a href="clubs.html" title="Clubs and Athletics"> Click Here to see what Athletic sand Clubs I am,was, and going to be apart of!</a>
 <div class="portfolio-card">
       Ways to Contact me:
       
