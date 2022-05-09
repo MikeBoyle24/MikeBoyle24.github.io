@@ -14,6 +14,9 @@
       
 # About Me Page
       <a href="About.html" title="About Me Page">Click here to get to my About Me page!</a>
+     
+      
+      
       Ways to Contact me:
       
       <ul>
