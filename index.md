@@ -4,6 +4,7 @@
 # Previous Job Experience
 <a href="Previous Job experience.html" title="Previous Job Experience">My Job Experience</a>
 # Skills
+<a href="skills.html" title="Seasons project I did this past semester!">Seasons project I did this past semester!</a>
 # Education
 <a href="education.html" title="Some classes I have taken"> Classes I have taken!</a>
 # Organizations, Clubs, Teams, Athletics, Causes, Charities
