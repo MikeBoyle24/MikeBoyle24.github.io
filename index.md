@@ -11,6 +11,8 @@
 # Clubs and Athletics
 <a href="clubs.html" title="Clubs and Athletics"> Click Here to see what Athletic sand Clubs I am,was, and going to be apart of!</a>
 <div class="portfolio-card">
+#About Me Page
+      <a href="About.html" title="About Me Page">Click here to get to my About Me page!</a>
       Ways to Contact me:
       
       <ul>
