@@ -14,7 +14,9 @@ body {
   margin: 0px auto;
   color: #000;
 }
-
+// This sets the background color
+  
+  
 figure {
   margin: 24px 0px 48px;
 }
@@ -24,6 +26,7 @@ img {
   width: 100%;
   max-width: 100%;
 }
+  //This sets the borders and the size and shape of them.
 </style>
 
 
@@ -46,7 +49,7 @@ Select your favorite season to change the websites' Season!:
   <option value="summer">Summer</option>
   <option value="fall">Fall</option>
   <option value="winter">Winter</option>
-
+//This sets the options up and starts the set up for the changer.
 </select>
 
 </form>
@@ -54,11 +57,11 @@ Select your favorite season to change the websites' Season!:
 <header>
 
   <p id="season-explination">This is Spring! Usually starts to warm up and is assosiated with rain!</p>
-
+//tnis is like a opening line that introduces the page.
 <figure>
   <img width="500" id="season-image" alt="" src="images/spring-1373199.jpg" />
 </figure>
-
+//this is the starting image
 
 <script>
 
@@ -79,6 +82,7 @@ function seasonSelector(selectElem) {
   if (i < 0) {
     return;
   }
+  //this is the start of the changing code
 
   var optionValue = selectElem.options[i].value;
 
@@ -88,26 +92,34 @@ function seasonSelector(selectElem) {
     document.getElementById("season-explination").innerHTML = "This is Spring! Usually starts to warm up and is assosiated with rain!";
     document.getElementById("season-image").src="images/spring-1373199.jpg";
   }
+  //this is the code for spring with background color,the id to change it, a small description, and the image id for the season
+  
   else if (optionValue === "summer") {
     document.body.style.backgroundColor = "#FFFF00";
     document.getElementById("season-title").innerHTML = "Summer";
     document.getElementById("season-explination").innerHTML = "This is Summer! This season is assosiated with hot days and the beach!";
     document.getElementById("season-image").src="images/summer.jpg";
   }
+   //this is the code for summer with background color,the id to change it, a small description, and the image id for the season
+  
   else if (optionValue === "fall") {
     document.body.style.backgroundColor = "#FFA500";
     document.getElementById("season-title").innerHTML = "Fall";
     document.getElementById("season-explination").innerHTML = "This is Fall! This season is assosiated with pumpkins and Halloween!";
     document.getElementById("season-image").src="images/autumn-leaves_207019997.jpeg";
   }
+   //this is the code for fall with background color,the id to change it, a small description, and the image id for the season
+  
   else if (optionValue === "winter") {
     document.body.style.backgroundColor = "#d6ecef ";
     document.getElementById("season-title").innerHTML = "Winter";
     document.getElementById("season-explination").innerHTML = "This is Winter! This season is associated with cold days and my favorite... Snowboarding!";
     document.getElementById("season-image").src="images/winter.jpg";
   }
+   //this is the code for winter with background color,the id to change it, a small description, and the image id for the season
   else {
     document.write("I have malfunctioned! Please refresh.");
+  //this is incase something goes wromng so they reset the page by refreshing
   }
 }
 
